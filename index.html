@@ -340,7 +340,7 @@ draw = function() {
      
     //Displays the time on the right
     time(400,500,h,m);
-    
+    document.getElementById("hi").innerHTML = choices.extra;
     //Easter Egg/edit history
     keyPressed = function(){ if(keyPressed&&keyCode===32){ 
         println(choices.extra); } };
@@ -366,6 +366,7 @@ john's jeans
         });
     </script>
         </br></br></br></br></br>
+	<p id="hi"></p>
         <h6>Created by sheepman39</br>(J Salad)</h6>
     <p>To go to the KA version, click <a href="https://www.khanacademy.org/computer-programming/wip-voluntold-30/4507139111747584?editor=no" target="_blank">here</a></p>
     <p>To report a bug/change a name, click <a href="https://forms.gle/BX7jmTKK1YxNU2ak9" target="_blank"> here </a></p>
